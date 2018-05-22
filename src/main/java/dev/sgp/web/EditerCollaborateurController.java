@@ -32,6 +32,7 @@ public class EditerCollaborateurController extends HttpServlet {
 		String titre = req.getParameter("titre");
 		String nom = req.getParameter("nom");
 		String prenom = req.getParameter("prenom");
+
 		resp.setContentType("text/html");
 
 		if (matricule == null | titre == null | nom == null | prenom == null) {

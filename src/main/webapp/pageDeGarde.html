@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>SiteCollaborateur</title>
+  </head>
+  <body>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">LOG</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+          
+                <div class="collapse navbar-collapse" id="navbarsExample02">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Collaborateurs <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Statistiques</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#">Activités</a>
+                     </li>
+                  </ul>
+                </div>
+        </nav>
+                      <main role="main">
+                          <div class="container">
+                              <div class="row justify-content-end"> 
+                                  <div class="col-md-2">
+                                        <button type="button" class="btn btn-light">Ajouter un nouveau collaborateur</button>
+                                  </div>
+                                </div>
+                             
+                          </div>
+                
+                      <!-- Main jumbotron for a primary marketing message or call to action -->
+                      <div class="jumbotron">
+                        <div class="container">
+                          <h1 class="display-3">Les collaborateurs</h1>
+                          <form>  
+                          <div class="row">
+                                
+                                  <div class="col col-md-6">
+                                        <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                     <span class="input-group-text" id="">rechercher un nom ou un prenom qui commence par :</span>
+                                                </div>
+                                                <input id="SearchStartBy" type="text" class="form-control">
+                                                
+                                            </div>
+                                            <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                      <label class="input-group-text" for="inputGroupSelectDepartement">Filtrer par departement</label>
+                                                    </div>
+                                                    <select class="custom-select" id="inputGroupSelectDepartement">
+                                                      <option selected>Tous</option>
+                                                      <option value="1">Comptabilité</option>
+                                                      <option value="2">Ressource Humaines</option>
+                                                      <option value="3">Informatique</option>
+                                                    </select>
+                                             </div>
+                                  </div>
+                                  <div class="col-md-1">
+                                        <button type="button" class="btn btn-primary btn-sm">Rechercher</button>
+                                  </div>
+                                </form>
+                                  <div class="col-md-5">
+                                        <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                  <div class="input-group-text">
+                                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                                  </div>
+                                                </div>
+                                                     <span class="input-group-text" id="">Voir les collabarateurs désactivé</span>
+                                              </div>
+                                  </div>
+                              </div>
+                        </div>
+                      </div>
+                
+                      <div class="container">
+                        <!-- Example row of columns -->
+                        <div class="row">
+                          <div class="col-md-4">
+                            <h2>Nom Prenom</h2>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                            <img src="./image/1483797400443298.png" class="img-fluid" alt="Responsive image">
+                                    </div>
+                                    <div class="col">
+                                            <ul class="list-group">
+                                                    <li class="list-group-item">Fonction: <label id="fonction">dev</label></li>
+                                                    <li class="list-group-item">Departement: <label id="departement">Informatique</label></li>
+                                                    <li class="list-group-item">Email: <label id="email">truc@email.com</label></li>
+                                                    <li class="list-group-item">Telephone: <label id="telephone">06.06.06.06.07</label></li>
+                                                  </ul>
+                                                  <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+                            
+                          </div>
+                          <div class="col-md-4">
+                                <h2>Nom Prenom</h2>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                                <img src="./image/1483797400443298.png" class="img-fluid" alt="Responsive image">
+                                        </div>
+                                        <div class="col">
+                                                <ul class="list-group">
+                                                      <li class="list-group-item">Fonction: <label id="fonction">dev</label></li>
+                                                      <li class="list-group-item">Departement: <label id="departement">Informatique</label></li>
+                                                      <li class="list-group-item">Email: <label id="email">truc@email.com</label></li>
+                                                      <li class="list-group-item">Telephone: <label id="telephone">06.06.06.06.07</label></li>
+                                                      </ul>
+                                                      <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                
+                          </div>
+                          <div class="col-md-4">
+                                <h2>Nom Prenom</h2>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                                <img src="./image/1483797400443298.png" class="img-fluid" alt="Responsive image">
+                                        </div>
+                                        <div class="col">
+                                                <ul class="list-group">
+                                                      <li class="list-group-item">Fonction: <label id="fonction">dev</label></li>
+                                                      <li class="list-group-item">Departement: <label id="departement">Informatique</label></li>
+                                                      <li class="list-group-item">Email: <label id="email">truc@email.com</label></li>
+                                                      <li class="list-group-item">Telephone: <label id="telephone">06.06.06.06.07</label></li>
+                                                      </ul>
+                                                      <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                          </div>
+                          <div class="row">
+                                <div class="col-md-4">
+                                        <h2>Nom Prenom</h2>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                        <img src="./image/1483797400443298.png" class="img-fluid" alt="Responsive image">
+                                                </div>
+                                                <div class="col">
+                                                        <ul class="list-group">
+                                                                <li class="list-group-item">Fonction: <label id="fonction">dev</label></li>
+                                                                <li class="list-group-item">Departement: <label id="departement">Informatique</label></li>
+                                                                <li class="list-group-item">Email: <label id="email">truc@email.com</label></li>
+                                                                <li class="list-group-item">Telephone: <label id="telephone">06.06.06.06.07</label></li>
+                                                              </ul>
+                                                              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                        <h2>Nom Prenom</h2>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                        <img src="./image/1483797400443298.png" class="img-fluid" alt="Responsive image">
+                                                </div>
+                                                <div class="col">
+                                                        <ul class="list-group">
+                                                                <li class="list-group-item">Fonction: <label id="fonction">dev</label></li>
+                                                                <li class="list-group-item">Departement: <label id="departement">Informatique</label></li>
+                                                                <li class="list-group-item">Email:<label id="email">truc@email.com</label></li>
+                                                                <li class="list-group-item">Telephone: <label id="telephone">06.06.06.06.07</label></li>
+                                                              </ul>
+                                                              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="col-md-4">
+                                        <h2>Nom Prenom</h2>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                        <img src="./image/1483797400443298.png" class="img-fluid" alt="Responsive image">
+                                                </div>
+                                                <div class="col">
+                                                        <ul class="list-group">
+                                                                <li class="list-group-item">Fonction: <label id="fonction">dev</label></li>
+                                                                <li class="list-group-item">Departement: <label id="departement">Informatique</label></li>
+                                                                <li class="list-group-item">Email: <label id="email">truc@email.com</label></li>
+                                                                <li class="list-group-item">Telephone: <label id="telephone">06.06.06.06.07</label></li>
+                                                              </ul>
+                                                              <p><a class="btn btn-secondary" href="#" role="button">Editer</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                
+                        <hr>
+                
+                      </div> <!-- /container -->
+                
+                    </main>
+                
+                    <footer class="container">
+                      <p>© Zarkania 2017-2018</p>
+                    </footer>
+                
+                    <!-- Bootstrap core JavaScript
+                    ================================================== -->
+                    <!-- Placed at the end of the document so the pages load faster -->
+                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+                    <script src="../../assets/js/vendor/popper.min.js"></script>
+                    <script src="../../dist/js/bootstrap.min.js"></script>
+                  
+                
+ 
+
+
+  </body>
+</html>
