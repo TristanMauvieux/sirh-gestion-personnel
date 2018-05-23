@@ -20,4 +20,12 @@
   	<servlet-name>EditerCollaborateurController</servlet-name>
   	<url-pattern>/collaborateurs/editer</url-pattern>
   </servlet-mapping>
+  <filter>
+  	<filter-name>FrequentationFilter</filter-name>
+  	<filter-class>dev.sgp.filter.frequentationFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>FrequentationFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
 </web-app>
